@@ -5,7 +5,6 @@ import MoreRows from "./MoreRows";
 // image
 import smile from "../image/icons/smile.png";
 import box from "../image/icons/box.png";
-import mounth from "../image/icons/mounth.png";
 
 const More = () => {
   const imagecards = [
