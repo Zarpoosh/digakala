@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 // images
-import banner from "../image/banner.webp";
 import logo from "../image/logo.svg";
 
 // icons
@@ -26,7 +25,10 @@ const Header = (props) => {
     <>
       {/* banner */}
       <div className="w-full cursor-pointer">
-        <img src={banner} alt="" />
+        <img
+          src="https://dkstatics-public.digikala.com/digikala-adservice-banners/aa11c9fcd1a061b171fab7e3865fe8033095be70_1686666584.jpg?x-oss-process=image/quality,q_95/format,webp"
+          alt=""
+        />
       </div>
       {/* end of banner */}
 

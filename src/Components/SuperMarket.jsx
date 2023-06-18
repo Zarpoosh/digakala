@@ -2,13 +2,6 @@ import React, { useState } from "react";
 // isons
 import { BsArrowLeftShort } from "react-icons/bs";
 
-// image
-import shampoo from "../image/commodity/shampoo.webp";
-import shampoo2 from "../image/commodity/shampoo2.webp";
-import powder from "../image/commodity/powder.webp";
-import fresh from "../image/commodity/fresh.svg";
-import fresh2 from "../image/commodity/fresh2.png";
-
 const SuperMarket = () => {
   const images = [
     {
@@ -37,8 +30,8 @@ const SuperMarket = () => {
       <div className="lg:w-4/5 lg:mx-auto mx-4 rounded-lg my-4 bg-slate-300 h-auto flex felx-col">
         <div className="w-full p-2 sm:flex lg:flex-row">
           <div className=" flex w-3/5">
-            <img className="h-13 w-13 p-2" src={fresh2} alt="" />
-            <img className="" src={fresh} alt="" />
+            <img className="h-13 w-13 p-2" src="https://www.digikala.com/statics/img/png/amazing/fresh.png" alt="" />
+            <img className="" src="https://www.digikala.com/statics/img/svg/typography/fresh.svg" alt="" />
             <p className="bg-green-500 text-white my-auto p-1 mx-2 hidden lg:flex rounded-full">
               تا ۶۸٪ تخفیف
             </p>

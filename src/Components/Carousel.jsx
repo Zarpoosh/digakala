@@ -4,7 +4,7 @@ import Card from "./Card";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 // image
 import Amazings from "../image/commodity/Amazings.svg";
-import box from "../image/commodity/box.png";
+// import box from "../image/commodity/box.png";
 
 const Carousel = () => {
   const scrollLeft = () => {
@@ -21,7 +21,7 @@ const Carousel = () => {
       <div className="absolute">
         <div className="items-center  mt-[60px] flex flex-col mx-auto mr-5">
           <img src={Amazings} className="h-20 w-20" alt="Amazings" />
-          <img src={box} alt="box" className="h-20 w-20" />
+          <img src="https://www.digikala.com/statics/img/png/specialCarousel/box.png" alt="box" className="h-20 w-20" />
           <div className="flex flex-row items-center text-white">
             <a className="" href="#">
               مشاهده همه

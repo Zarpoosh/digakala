@@ -6,10 +6,6 @@ import MoreRows from "./MoreRows";
 import smile from "../image/icons/smile.png";
 import box from "../image/icons/box.png";
 import mounth from "../image/icons/mounth.png";
-import pluss from "../image/icons/pluss.png";
-import mamor from "../image/icons/mamoreat.png";
-import clab from "../image/icons/clab.png";
-import gift from "../image/icons/gift.png";
 
 const More = () => {
   const imagecards = [
@@ -120,11 +116,26 @@ const More = () => {
 
             <div className="w-full lg:w-4/5  px-2 grid grid-cols-3 lg:flex lg:mx-auto lg:justify-between">
               <MoreRows Image={box} title="لاکی باکس" />
-              <MoreRows Image={mounth} title="خرید سر ماه" />
-              <MoreRows Image={pluss} title="دیجی پلاس" />
-              <MoreRows Image={mamor} title="ماموریت ها" />
-              <MoreRows Image={clab} title="دیجی کلاب" />
-              <MoreRows Image={gift} title="کارت هدیه" />
+              <MoreRows
+                Image="https://dkstatics-public.digikala.com/digikala-bellatrix/44f0cf40d5aa1c433866d47976cc0c6e82c86823_1648896970.png"
+                title="دیجی کلاب"
+              />
+              <MoreRows
+                Image="https://dkstatics-public.digikala.com/digikala-bellatrix/78ccd40cbf305fb067de78ddab5be84f69589c8d_1648897009.png"
+                title="دیجی پلاس"
+              />
+              <MoreRows
+                Image="https://dkstatics-public.digikala.com/digikala-bellatrix/967cbaa25713ca4d0e58cb5aaf0e486ab986d460_1648898393.png"
+                title="ماموریت ها"
+              />
+              <MoreRows
+                Image="https://dkstatics-public.digikala.com/digikala-bellatrix/258db5bf0ff7b28dbae1bfb3dfaa71bfff32faf9_1686642108.png"
+                title="دیجی کلاب"
+              />
+              <MoreRows
+                Image="https://dkstatics-public.digikala.com/digikala-bellatrix/6b21cc5a4ebe6332b778a2f4725ed3fdaa78e014_1673693837.png"
+                title="کارت هدیه"
+              />
             </div>
 
             <div className="flex p-6 border-t  rounded-b flex-col">
