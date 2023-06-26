@@ -32,9 +32,9 @@ const Install = () => {
         <p className="text-white mx-2 font-bold">دانلود اپلیکیشن دیجی‌کالا</p>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4  mx-auto">
-        {imagecards.map((cards) => (
-          <a key={cards.id} className="mx-2 my-2" href="#">
-            <img src={cards.url} alt="" />
+        {imagecards.map((card) => (
+          <a key={card.url} className="mx-2 my-2" href="#">
+            <img src={card.url} alt="" />
           </a>
         ))}
       </div>

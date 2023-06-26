@@ -5,8 +5,6 @@ import logo from "../image/logo.svg";
 import { BiSearch } from "react-icons/bi";
 import { TbLogin } from "react-icons/tb";
 import { BsCart } from "react-icons/bs";
-import { BsPerson } from "react-icons/bs";
-import { MdOutlineArrowDropDown } from "react-icons/md";
 
 const Search = () => {
   return (

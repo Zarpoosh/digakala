@@ -39,15 +39,15 @@ const SuperMarket = () => {
 
           <div className="flex flex-row">
             {/* circles */}
-            {images.map((cards) => (
-              <div className="flex my-auto">
+            {images.map((card) => (
+              <div key={card.url} className="flex my-auto">
                 <img
                   className="rounded-full h-14 w-14 mx-2"
-                  src={cards.url}
+                  src={card.url}
                   alt=""
                 />
                 <span className="bg-red-500 absolute mt-5 text-white text-xs rounded-full p-1 my-auto">
-                  {cards.off}
+                  {card.off}
                 </span>
               </div>
             ))}

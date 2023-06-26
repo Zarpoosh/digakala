@@ -11,7 +11,7 @@ const SidebarDown = ({ name }) => {
         <button
           onClick={() => setShowDropDown(!showDropDown)}
           type="button"
-          class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group "
+          className="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group "
         >
           <p className="mr-2 pr-2 text-sm">{name}</p>
           <i className="mr-auto p-2">
@@ -20,12 +20,12 @@ const SidebarDown = ({ name }) => {
         </button>
         <ul
           
-          class={`py-2 w-full bg-gray-200  ${!showDropDown ? "hidden" : ""}`}
+          className={`py-2 w-full bg-gray-200  ${!showDropDown ? "hidden" : ""}`}
         >
           <li className="items-center flex mr-5">
             <a
               href="#"
-              class="hover:text-red-500  text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
+              className="hover:text-red-500  text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
             >
               برندهای مختلف گوشی موبایل
             </a>
@@ -33,7 +33,7 @@ const SidebarDown = ({ name }) => {
           <li className="items-center flex mr-5">
             <a
               href="#"
-              class="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
+              className="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
             >
               گوشی براساس قیمت
             </a>
@@ -41,7 +41,7 @@ const SidebarDown = ({ name }) => {
           <li className="items-center flex mr-5">
             <a
               href="#"
-              class="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
+              className="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
             >
               گوشی براساس حافظه داخلی
             </a>
@@ -49,7 +49,7 @@ const SidebarDown = ({ name }) => {
           <li className="items-center flex mr-5">
             <a
               href="#"
-              class="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
+              className="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
             >
               رزولوشن عکس
             </a>
@@ -57,7 +57,7 @@ const SidebarDown = ({ name }) => {
           <li className="items-center flex mr-5">
             <a
               href="#"
-              class="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
+              className="hover:text-red-500 text-sm p-2 text-gray-900 transition duration-75 rounded-lg group "
             >
               برندهای مختلف گوشی موبایل
             </a>

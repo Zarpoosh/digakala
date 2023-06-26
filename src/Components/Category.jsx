@@ -65,15 +65,15 @@ const Category = () => {
         <h1 className="font-bold">دسته بندی های دیجی کالا</h1>
       </div>
       <div className="w-full h- lg:w-4/5 lg:mx-auto grid grid-cols-3 lg:grid-cols-6  items-center justify-center">
-        {imagecards.map((cards) => (
-          <div key={cards.id} className="items-center my-2 p-3 flex flex-col">
+        {imagecards.map((card) => (
+          <div key={card.url} className="items-center my-2 p-3 flex flex-col">
             <a
               className=" h-20 w-20 lg:w-40 lg:h-40 items-center flex flex-col "
               href="#"
             >
-              <img className="items-center" src={cards.url} alt="" />
+              <img className="items-center" src={card.url} alt="" />
             </a>
-            <p className="text-xs">{cards.title}</p>
+            <p className="text-xs">{card.title}</p>
           </div>
         ))}
       </div>

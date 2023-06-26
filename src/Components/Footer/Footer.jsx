@@ -218,9 +218,9 @@ const Footer = () => {
             (فروشگاه آنلاین دیجی‌کالا) است.
           </p>
           <div className="grid grid-cols-3 lg:grid-cols-6 items-center">
-            {imagecards.map((cards) => (
-              <a key={cards.id} href="#" className="mx-auto p-3">
-                <img src={cards.url} alt="" />
+            {imagecards.map((card) => (
+              <a key={card.url} href="#" className="mx-auto p-3">
+                <img src={card.url} alt="" />
               </a>
             ))}
           </div>

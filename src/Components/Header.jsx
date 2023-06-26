@@ -49,14 +49,14 @@ const Header = (props) => {
 
             {/* sidbar */}
             <div
-              class={`h-screen lg:inline lg:h-auto p-4 lg:p-0  transition-transform hidden bg-gray-200 lg:bg-white w-80 lg:w-full ${
+              className={`h-screen lg:inline lg:h-auto p-4 lg:p-0  transition-transform hidden bg-gray-200 lg:bg-white w-80 lg:w-full ${
                 !showSide ? "hidden" : ""
               }`}
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="drawer-navigation-label"
             >
-              <div class="py-4 lg:py-0">
-                <ul class="space-y-2 flex lg:flex-row">
+              <div className="py-4 lg:py-0">
+                <ul className="space-y-2 flex lg:flex-row">
                   <li
                     className={`py-5 hidden lg:inline ${
                       !showMenu ? "hidden" : ""

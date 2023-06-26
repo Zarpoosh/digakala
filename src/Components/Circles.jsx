@@ -47,8 +47,8 @@ const Circles = () => {
   return (
     <>
       <div className="w-full lg:w-3/5  px-2 grid grid-cols-4 lg:flex lg:mx-auto lg:justify-between">
-        {imagecards.map((cards) => (
-          <CircleRows key={cards.id} title={cards.name} Image={cards.url} />
+        {imagecards.map((card) => (
+          <CircleRows key={card.url} title={card.name} Image={card.url} />
         ))}
         <More />
       </div>

@@ -92,10 +92,10 @@ const Product = () => {
           {/* end of titles */}
           {/* images */}
           <div className="grid grid-cols-2 lg:grid-cols-8">
-            {imagecards1.map((cards) => (
-              <div className="p-3">
+            {imagecards1.map((card) => (
+              <div key={card.url} className="p-3">
                 <a href="#">
-                  <img src={cards.url} alt="" />
+                  <img src={card.url} alt="" />
                 </a>
               </div>
             ))}

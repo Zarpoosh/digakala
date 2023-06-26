@@ -19,7 +19,7 @@ const Sidebar = () => {
     <div>
       <button
         onClick={() => setShowSide(!showSide)}
-        class="rounded-lg px-5  mr-2 border-0 focus:border-0 lg:hidden"
+        className="rounded-lg px-5  mr-2 border-0 focus:border-0 lg:hidden"
         type="button"
       >
         <RxHamburgerMenu />
@@ -28,13 +28,13 @@ const Sidebar = () => {
       {/* slidebar */}
       <div onClick={() => setShowSide(!showSide)}
         id="drawer-navigation"
-        class={` bg-black/50 h-screen  lg:hidden fixed top-0  right-0  w-full overflow-x-hidden overflow-y-auto md:inset-0  max-h-full ${
+        className={` bg-black/50 h-screen  lg:hidden fixed top-0  right-0  w-full overflow-x-hidden overflow-y-auto md:inset-0  max-h-full ${
           !showSide ? "hidden" : ""
         }`}
       ></div>
       <div
         style={{ zIndex: "" }}
-        class={`py-4 bg-white w-4/5 sm:w-2/5 h-screen ${
+        className={`py-4 bg-white w-4/5 sm:w-2/5 h-screen ${
           !showSide ? "hidden" : ""
         } lg:hidden fixed top-0  right-0  overflow-x-hidden overflow-y-auto md:inset-0  max-h-full`}
         id="sidebar"
@@ -52,7 +52,7 @@ const Sidebar = () => {
           </i>
         </div>
         {/* end of logo */}
-        <ul class="space-y-2 font-medium my-4">
+        <ul className="space-y-2 font-medium my-4">
           <SidebarRows Icon={GiMilkCarton} title="سوپرمارکت" />
           <SidebarRows Icon={AiOutlineFire} title="پرفروش ترین ها" />
           <SidebarRows Icon={MdOutlineDiscount} title="تخفیف ها و پیشنهلد ها" />

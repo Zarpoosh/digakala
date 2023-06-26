@@ -92,16 +92,16 @@ const Selected = () => {
         <h1 className="font-bold">منتخب محصولات تخفیف و حراج</h1>
       </div>
       <div className="w-full lg:w-4/5 lg:rounded-xl lg:mx-auto grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 lg:border">
-        {imagecards.map((cards) => (
+        {imagecards.map((card) => (
           <div
-            key={cards.id}
+            key={card.url}
             className="flex border my-2 items-ceter mx-auto justify-center"
           >
             <SelectedItem
-              image={cards.url}
-              off={cards.off}
-              price={cards.price}
-              Decrease={cards.Decrease}
+              image={card.url}
+              off={card.off}
+              price={card.price}
+              Decrease={card.Decrease}
             />
           </div>
         ))}

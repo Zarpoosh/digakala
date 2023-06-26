@@ -105,9 +105,9 @@ const More = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                   fillRule="evenodd"
                     d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </button>
@@ -142,12 +142,12 @@ const More = () => {
                 <p className="text-xs mr-5">سرویس های گروه دیجی کالا</p>
               </div>
               <div className=" w-full lg:w-full lg:grid grid-cols-2 lg:mx-auto lg:justify-between">
-                {imagecards.map((cards) => (
+                {imagecards.map((card) => (
                   <MoreDown
-                    Image={cards.url}
-                    key={cards.id}
-                    desc={cards.desc}
-                    title={cards.title}
+                    Image={card.url}
+                    key={card.url}
+                    desc={card.desc}
+                    title={card.title}
                   />
                 ))}
               </div>

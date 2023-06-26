@@ -31,10 +31,10 @@ const Brand = () => {
         <h1 className="font-bold">محبوب‌ترین برندها</h1>
       </div>
       <div className="w- lg:w-4/5 border border-gray-200 mx-3 lg:mx-auto flex flex-row rounded-lg overflow-x-auto">
-       {imagecards.map((cards)=>(
-          <div key={cards.id} className="flex flex-col border p-5 border-gray-200 justify-center items-center">
+       {imagecards.map((card)=>(
+          <div key={card.url} className="flex flex-col border p-5 border-gray-200 justify-center items-center">
           <a className="h-14 w-14 my-4 flex flex-col items-center m-2" href="#">
-            <img src={cards.url} alt="" />
+            <img src={card.url} alt="" />
           </a>
         </div>
        )) }

@@ -27,16 +27,16 @@ const Off = () => {
   return (
     <div className="w-full h-auto mx-auto p-1">
       <div className="w-full lg:w-4/5 grid grid-cols-2 lg:flex lg:mx-auto">
-        {imagecards.map((cards) => (
+        {imagecards.map((card) => (
           <a
-            key={cards.id}
+            key={card.url}
             className="flex flex-col items-center my-2  mx-2"
             href="#"
           >
             <div className="">
               <img
                 className="w-full cursor-pointer rounded-xl"
-                src={cards.url}
+                src={card.url}
                 alt=""
               />
             </div>
