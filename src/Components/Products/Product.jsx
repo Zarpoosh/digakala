@@ -93,7 +93,7 @@ const Product = () => {
           {/* images */}
           <div className="grid grid-cols-2 lg:grid-cols-8">
             {imagecards1.map((card) => (
-              <div key={card.url} className="p-3">
+              <div key={card.url} className="p-3 hover:border hover:shadow-2xl">
                 <a href="#">
                   <img src={card.url} alt="" />
                 </a>

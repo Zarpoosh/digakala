@@ -7,7 +7,7 @@ const Suggest = () => {
       <div className=" flex items-center justify-center my-4">
         <h1 className="font-bold">پیشنهاد دیجی‌کالا</h1>
       </div>
-      <div className="w- lg:w-4/5 border border-gray-200 mx-3 lg:mx-auto flex flex-row rounded-lg overflow-x-auto">
+      <div className=" lg:w-4/5 border border-gray-200 mx-3 lg:mx-auto flex flex-row rounded-lg overflow-x-auto">
         <div className="flex flex-col border p-5 border-gray-200 justify-center items-center">
           <SuggestItem
             title="موبایل"

@@ -66,7 +66,7 @@ const Category = () => {
       </div>
       <div className="w-full h- lg:w-4/5 lg:mx-auto grid grid-cols-3 lg:grid-cols-6  items-center justify-center">
         {imagecards.map((card) => (
-          <div key={card.url} className="items-center my-2 p-3 flex flex-col">
+          <div key={card.url} className="items-center my-2 p-3 flex flex-col  hover:shadow-2xl">
             <a
               className=" h-20 w-20 lg:w-40 lg:h-40 items-center flex flex-col "
               href="#"

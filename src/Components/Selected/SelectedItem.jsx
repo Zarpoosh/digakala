@@ -5,7 +5,7 @@ import { HiOutlinePlusSm } from "react-icons/hi";
 const SelectedItem = ({image ,off , price , Decrease}) => {
   return (
     <>
-      <div className="card bg-white">
+      <div className="card bg-white hover:shadow-2xl ">
         <a className="top cursor-pointer">
           <img
             className=" object-cover m-5 p-1 h-24 w-24 mx-auto"
