@@ -9,7 +9,7 @@ const SupportDown = ({ name, desc }) => {
         <button
           onClick={() => setshowDesc(!showDesc)}
           type="button"
-          class="flex w-full p-2 items-center text-base text-gray-900 transition duration-75 rounded-lg group "
+          className="flex w-full p-2 items-center text-base text-gray-900 transition duration-75 rounded-lg group "
         >
           <p className=" text-sm font-semibold">{name}</p>
           <i className="mr-auto p-2">
