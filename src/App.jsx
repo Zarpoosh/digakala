@@ -14,7 +14,6 @@ import Product from "./Components/Products/Product";
 import Plus from "./Components/Digiplus/Plus";
 import Club from "./Components/DigiClub/Club";
 import Footer from "./Components/Footer/Footer";
-// import { Routes, Route } from "react-router-dom";
 
 function App() {
  
