@@ -18,7 +18,6 @@ import Footer from "./Components/Footer/Footer";
 function App() {
  
   return (
-    
     <>
       <div   className="flex flex-col w-full ">
         {/* header */}
