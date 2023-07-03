@@ -19,7 +19,7 @@ function App() {
  
   return (
     <>
-      <div   className="flex flex-col w-full ">
+      <div className="flex flex-col w-full ">
         {/* header */}
         <div className=" border-b fixed bg-white" style={{ zIndex: "1" }}>
           <Header />
