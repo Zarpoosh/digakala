@@ -14,14 +14,12 @@ import Product from "./Components/Products/Product";
 import Plus from "./Components/Digiplus/Plus";
 import Club from "./Components/DigiClub/Club";
 import Footer from "./Components/Footer/Footer";
-// import { Routes, Route } from "react-router-dom";
 
 function App() {
  
   return (
-    
     <>
-      <div   className="flex flex-col w-full ">
+      <div className="flex flex-col w-full ">
         {/* header */}
         <div className=" border-b fixed bg-white" style={{ zIndex: "1" }}>
           <Header />

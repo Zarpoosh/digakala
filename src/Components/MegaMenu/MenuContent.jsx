@@ -52,8 +52,8 @@ const MenuContent = (props) => {
                   </a>
                 </div>
                 {/* riz manu */}
-                {brand.map((name) => (
-                  <div key={name.id} className="flex flex-col p-2 ">
+                {brand.map((name, index) => (
+                  <div key={index} className="flex flex-col p-2 ">
                     <a href="#">
                       <h1 className="text-xs text-gray-500 hover:text-red-500">
                         گوشی {name.name}
@@ -77,8 +77,8 @@ const MenuContent = (props) => {
                   </a>
                 </div>
                 {/* riz manu */}
-                {brand.map((name) => (
-                  <div key={name.id} className="flex fle-col p-2 ">
+                {brand.map((name, index) => (
+                  <div key={index} className="flex fle-col p-2 ">
                     <a href="#">
                       <h1 className="text-xs text-gray-500 hover:text-red-500">
                         گوشی {name.name}
@@ -102,8 +102,8 @@ const MenuContent = (props) => {
                   </a>
                 </div>
                 {/* riz manu */}
-                {brand.map((name) => (
-                  <div className="flex fle-col p-2 ">
+                {brand.map((name, index) => (
+                  <div key={index} className="flex fle-col p-2 ">
                     <a href="#">
                       <h1 className="text-xs text-gray-500 hover:text-red-500">
                         گوشی {name.name}
